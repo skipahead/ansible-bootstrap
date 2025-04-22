@@ -9,7 +9,7 @@ error()   { echo -e "\033[1;31m[ERROR]\033[0m $1"; }
 
 # ─── Prompt for GitHub Credentials ───────────────────────────────────────
 read -rp "GitHub Username: " GITHUB_USER
-read -rsp "GitHub Token (paste from password manager): " GITHUB_TOKEN
+read -rsp "GitHub Token: " GITHUB_TOKEN
 echo ""
 
 # ─── Config Variables ────────────────────────────────────────────────────
